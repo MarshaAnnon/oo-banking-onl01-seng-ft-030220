@@ -12,7 +12,7 @@ attr_accessor :sender, :receiver, :status, :amount
 
   def valid?
     @sender.valid? && @receiver.valid? true : false
-    
+
 
   end
 
