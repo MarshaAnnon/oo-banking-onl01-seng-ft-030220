@@ -2,7 +2,7 @@ class Transfer
 
 attr_accessor :bank_transfer, :sender, :receiver, :status, :amount
 
-  def initialize(sender, receiver,bank_transfer)
+  def initialize(sender, receiver, bank_transfer)
     @bank_transfer = bank_transfer
     @sender = sender
     @receiver = receiver
@@ -12,7 +12,7 @@ attr_accessor :bank_transfer, :sender, :receiver, :status, :amount
 
   def valid?
     if @sender && @receiver == valid?
-       @bank_transfer = true
+       @bank_transfer  = true
     else
       false
     end
