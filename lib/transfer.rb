@@ -1,3 +1,5 @@
+require "pry"
+
 class Transfer
 
 attr_accessor :sender, :receiver, :status, :amount
@@ -34,5 +36,5 @@ attr_accessor :sender, :receiver, :status, :amount
       @status = "reversed"
     end
   end
-  
+
 end
