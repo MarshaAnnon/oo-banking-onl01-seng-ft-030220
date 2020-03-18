@@ -7,7 +7,7 @@ attr_accessor :bank_transfer, :sender, :receiver, :status, :amount
     @sender = sender
     @receiver = receiver
     @status = "pending"
-    @amount = amount
+    @amount = 50
   end
 
 end
