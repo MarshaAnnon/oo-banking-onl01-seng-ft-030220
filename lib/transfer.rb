@@ -15,7 +15,7 @@ attr_accessor :sender, :receiver, :status, :amount
        @bank_transfer = true
 
     end
-    
+
   end
 
 end
