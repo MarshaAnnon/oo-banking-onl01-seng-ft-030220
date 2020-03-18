@@ -11,7 +11,7 @@ attr_accessor :bank_transfer, :sender, :receiver, :status, :amount
   end
 
   def valid?
-    if @sender=valid? && @receiver=valid? 
+    if sender=valid? && receiver=valid? 
       true
     else
       false
