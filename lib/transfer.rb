@@ -11,9 +11,8 @@ attr_accessor :bank_transfer, :sender, :receiver, :status, :amount
   end
 
   def valid?
-    bank_transfer.each {|account|}
     if sender.valid? && receiver.valid?
-      @bank_transfer = true
+      @status = true
     end
   end
 
