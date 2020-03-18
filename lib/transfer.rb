@@ -12,9 +12,8 @@ attr_accessor :sender, :receiver, :status, :amount
 
   def valid?
     binding.pry
-    if @sender.valid? && @receiver.valid?
+    if @sender && @receiver == true
        @bank_transfer = true
-
     end
   end
 
